@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#001E6C;
+    --color2:#035397;
+    --color3:#5089C6;
+    --color4:#FFAA4C;
+    --color5:white;
+}
+
+.header{
+    width: 90%;
+    background-color: var(--color3);
+    color: var(--color5);
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.title{
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 1px 1px 1px var(--color1);
+}
+.nav{
+    width: 90%;
+    background-color: var(--color2);
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+a{
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    color: var(--color5);
+    text-decoration: none;
+}
+.principal{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside__principal{
+    width: 30%;
+    background-color: var(--color1);
+    height: 500px;
+    border-radius: 5px;
+}
+.aside__texto{
+    color: var(--color5);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aside__header{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--color4);
+    border-radius: 5px;
+    height: 40px;
+}
+h2{
+    text-align: center;
+    line-height: 40px;
+    color: var(--color2);
+}
+
+.sections__principal{
+    width: 80%;
+    height: 500px;
+}
+
+.section{
+    width: 95%;
+    background-color: var(--color2);
+    margin-left: 5%;
+    height: 230px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.interno{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section__parrafo{
+    color: var(--color5);
+}
+.article{
+    height: 65px;
+    background-color: var(--color4);
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.article__texto{
+    color: var(--color5);
+    text-shadow: 1px 1px 1px var(--color1);
+    text-align: center;
+    margin: 10px;
+}
+.aside{
+    width: 28%;
+    background-color: var(--color1);
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 15px; 
+}
+.texto__aside{
+    color: var(--color5);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 90%;
+    background-color: var(--color2);
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.texto{
+    text-align: center;
+    color: var(--color5);
+    line-height: 60px;
+}
